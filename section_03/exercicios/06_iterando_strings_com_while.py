@@ -10,8 +10,8 @@ indice = 0
 
 while indice < tamanho_nome:
 
-    nova_string += acento + nome[indice]
+    nova_string += f'*{nome[indice]}'
 
     indice += 1
 
-print(nova_string)
+print(nova_string + '*')
